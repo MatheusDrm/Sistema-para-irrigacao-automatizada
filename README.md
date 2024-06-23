@@ -9,8 +9,9 @@ Este projeto também buscou comparar diferentes abordagens para resolver o probl
 
 ### ESP32
 O código feito utilizando FreeRtos, que terá suas funções sendo executadas concorrentemente, se encontra no arquivo irrigacaoAutomatizada_concorrente.ino.
-
+![alt text](https://github.com/MatheusDrm/Sistema-para-irrigacao-automatizada/blob/main/diagramas/diagramacodigo_Concorrente.png)
 Já o código que utiliza a estratégia sequencial do Super Loop se encontra em irrigacaoAutomatizada_sequencial.ino.
+![alt text](https://github.com/MatheusDrm/Sistema-para-irrigacao-automatizada/blob/main/diagramas/diagrama_sequencial.png)
 
 Por fim, para possibilitar a visualização da ordem de execução das tarefas alterou-se o código concorrente para obter o diagrama de GANTT (irrigacaoAutomatizada_concorrente_gantt.ino e gantt.py).
 
